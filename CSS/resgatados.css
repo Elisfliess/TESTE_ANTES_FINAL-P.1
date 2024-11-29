@@ -1,0 +1,56 @@
+/* Estilos para a seção e a coluna de resgatados */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+.resgatados {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os artigos se movam para a linha seguinte */
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    gap: 20px; /* Espaçamento entre os itens */
+}
+
+.resgatados article {
+    flex: 1 1 calc(33% - 20px); /* Define a largura dos artigos para 33% da largura da linha */
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    background-color: #f9f9f9;
+}
+
+.resgatados article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.resgatados article h3,
+.resgatados article h1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 15px;
+    color: #333;
+    background-color: brown;
+}
+
+.resgatados article p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+    .resgatados article {
+        flex: 1 1 calc(50% - 20px); /* 50% da largura para telas médias */
+    }
+}
+
+@media (max-width: 480px) {
+    .resgatados article {
+        flex: 1 1 100%; /* 100% da largura para telas muito pequenas */
+    }
+}

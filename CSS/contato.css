@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+             
+
+* {
+    padding: 0;
+    margin: 0;
+  
+  }
+ 
+ 
+  body {
+    background-color: #F5F5F5;
+    max-width: 100%;
+    font-family: "Alexandria", sans-serif;
+   
+   
+  }
+ 
+ 
+ 
+  /* Estilo do título fixo */
+  .primeiroTituloPrincipal {
+    
+    background-color: #A33A9C;
+    color: #f7f3fd;
+    font-family: "Alexandria", sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    padding: 35px;
+    text-align: center;
+   
+  }
+
+  span { 
+    font-weight: bold; 
+}
+
+  .segundoTitulo{
+    background-color: #743411;
+    color: #f7f3fd;
+    font-family: "Alexandria", sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    padding: 35px;
+    text-align: center;
+  }
+
+
+  .segundoTopicos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 25px 0;
+    
+}
+ 
+  .textoslt {
+    margin: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+ 
+  h2 {
+    text-align: center;
+    color: #333;
+    margin: 20px;
+  }
+ 
+  ul {
+    list-style-type: none;
+    padding: 0;
+   
+  }
+ 
+  li {
+    background-color: #efefef;
+    margin: 10px 0;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.5em;
+  }
+ 
+ 
+  /* INICIO DA PÁGINA WEB CONTATO */
+  main{
+
+    max-width: 1200px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    padding: 25px 0;
+    margin: 0px auto;
+  
+  }
+ 
+  .container_doe {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+ 
+  .textoPrincipal {
+    
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0 50px;
+    height: 50%;
+    text-align: justify;
+    background-color: #efefef;
+    justify-content: center;
+  }
+ 
+  .subtituloComoAjudar {
+    color: rgb(32, 161, 161);
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px 0;
+  }
+ 
+  .lista-comoAjudar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+  }
+ 
+  .ul-ajudar {
+    padding: 20px 0;
+  }
+ 
+  .ul-ajudar li {
+    display: list-item;
+    margin: 0 5px;
+  }
+ 
+  .titulocentral {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    font-family: "Alexandria", sans-serif;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+   
+    
+  }
+ 
+  .caixa_txt_1, .caixa_txt_2, .fraseEfeito2 {
+    
+
+    text-align: center; /* Centraliza o texto dentro do bloco */
+    padding: 20px 25px;
+    background-color: #efefef;
+    margin: 20px;
+    
+  }
+ 
+  p {
+    text-align: justify;
+    font-size: 25px;
+    justify-content: center;
+    font-family: "Alexandria", sans-serif;
+  }
+
+  .pagradecimento{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 25px;
+    background-color: #efefef;
+    color: #000000;
+   
+
+  }
+ 
+  /* DIV IMAGEM - FLEX-BOX */
+  .containercontato {
+    width: 100%;
+    margin: 25px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+  }
+ 
+  .box {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(red, green, blue, alpha);
+  }
+ 
+  .box img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    
+  }
+ 
+ 
+ 
+  .cards.antes {
+    display: table;
+    width: 100%;
+    height: 35%;
+    padding: 100px 0;
+    color: white;
+    background-position: 30% 45%;
+    background-size: cover;
+    filter: blur(6px);
+    position: absolute;
+    font-size: 22px;
+  }
+ 
+  .box-pixQrcode {
+    display: flex;
+    justify-content: space-between; /* Garante que as imagens fiquem afastadas igualmente */
+    align-items: center;
+    width: 100%; /* Garante que o container ocupe toda a largura disponível */
+    gap: 10px; /* Adiciona um espaço pequeno entre as imagens */
+    margin: 0; /* Elimina margens extras */
+    padding: 0; /* Remove qualquer padding que esteja ocupando espaço desnecessário */}
+  
+ 
+  .imgPix {
+    width: 80%; /* Define a largura das imagens para que fiquem lado a lado */
+    object-fit: cover; /* Garante que as imagens não distorçam */
+  }
+
+  .imgQrcode {
+    width: 38%; /* Define a largura das imagens para que fiquem lado a lado */
+    object-fit: cover; /* Garante que as imagens não distorçam */
+}
+ 
+  .item-0 {
+    order: 6;
+    flex-grow: 0;
+   
+    align-self: center;
+    margin: 10px;
+   
+  }
+ 
+  .item-1 {
+    order: 6;
+    flex-grow: 0;
+    align-self: center;
+    margin: 10px;
+    text-align: center;
+        display: block;
+   
+  }
+ 
+  h3 {
+    background-color: rgb(32, 161, 161);
+    margin-top: 0;
+    color: #f7f3fd;
+    padding: 35px;
+    text-align: center;
+    font-size: 25px;
+    
+  }
+ 
+  /* INICIO BOTÃO ENTRE EM CONTATO */
+  .box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(248, 248, 248, 0.2);
+    padding: 35px;
+    border-radius: 20px 50px;
+    background-clip: padding-box;
+    text-align: center;
+  }
+ 
+  .button {
+    background-color: #17738C;
+    border-radius: 28px;
+    display: inline-block;
+    cursor: pointer;
+    color: #f8f8f8;
+    font-family: "Alexandria", sans-serif;
+    font-size: 23px;
+    padding: 10px 14px;
+    text-decoration: none;
+  }
+ 
+  .button:hover {
+    background-color: #17738C;
+  }
+ 
+  .Button:active {
+    position: relative;
+    top: 1px;
+  }
+ 
+  /* INICIO DO POP-UP CONTATO */
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+ 
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+ 
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-size: 22px;
+  }
+ 
+  .popup h2 {
+    margin-top: 0;
+    margin: 40px;
+    color:#841273;
+    font-size: 32px;
+    text-align: center; /* Centraliza o título */
+  }
+ 
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+ 
+  .popup .close:hover {
+    color: #06D85F;
+  }
+ 
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+    text-align: center; /* Centraliza o texto */
+  }
+ 
+  .lista-contato {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center; 
+  }
+ 
+  .lista-contato li {
+    font-size: 18px;
+    color: #555;
+    padding: 8px 0;
+    margin: 5px 0;
+    border-bottom: 1px solid #eee; 
+  }
+ 
+  .lista-contato li:last-child {
+    border-bottom: none; 
+  }
+ 
+  .popup img {
+    display: block;
+    margin: 20px auto; 
+    width: 430px;
+    height: 230px;
+    border-radius: 5px; 
+ 
+  }
